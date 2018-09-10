@@ -1,0 +1,39 @@
+From f687a879198854e7dc9326d6980b9e71efa177e6 Mon Sep 17 00:00:00 2001
+From: Peter Hutterer <peter.hutterer@who-t.net>
+Date: Mon, 10 Sep 2018 10:01:46 +1000
+Subject: [PATCH] data: link to flathub-compatible 16:9 screenshots in the
+ appdata
+
+Fixes: https://github.com/flathub/org.freedesktop.Piper/issues/1
+
+Signed-off-by: Peter Hutterer <peter.hutterer@who-t.net>
+---
+ data/org.freedesktop.Piper.appdata.xml.in | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/data/org.freedesktop.Piper.appdata.xml.in b/data/org.freedesktop.Piper.appdata.xml.in
+index 218a38f..8d10a95 100644
+--- a/data/org.freedesktop.Piper.appdata.xml.in
++++ b/data/org.freedesktop.Piper.appdata.xml.in
+@@ -31,15 +31,15 @@
+   <screenshots>
+     <screenshot type="default">
+       <caption>The button configuraton page</caption>
+-      <image>https://github.com/libratbag/piper/raw/wiki/screenshots/piper-buttonpage.png</image>
++      <image>https://github.com/libratbag/piper/raw/wiki/screenshots/flathub/piper-buttonpage.png</image>
+     </screenshot>
+     <screenshot>
+       <caption>The LED configuraton page</caption>
+-      <image>https://github.com/libratbag/piper/raw/wiki/screenshots/piper-ledpage.png</image>
++      <image>https://github.com/libratbag/piper/raw/wiki/screenshots/flathub/piper-ledpage.png</image>
+     </screenshot>
+     <screenshot>
+       <caption>The resolution configuraton page</caption>
+-      <image>https://github.com/libratbag/piper/raw/wiki/screenshots/piper-resolutionpage.png</image>
++      <image>https://github.com/libratbag/piper/raw/wiki/screenshots/flathub/piper-resolutionpage.png</image>
+     </screenshot>
+   </screenshots>
+ 
+-- 
+2.17.1
+

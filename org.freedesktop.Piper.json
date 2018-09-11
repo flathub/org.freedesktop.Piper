@@ -62,6 +62,10 @@
                 {
                     "type": "patch",
                     "path": "0001-data-link-to-flathub-compatible-16-9-screenshots-in-.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-data-fix-the-launchable-ID-in-the-appdata-file.patch"
                 }
             ]
         }

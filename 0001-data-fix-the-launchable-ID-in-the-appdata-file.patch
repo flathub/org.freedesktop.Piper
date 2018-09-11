@@ -1,0 +1,26 @@
+From 3f91b6ef7c439be1fe8d24668a5d9e2145b4245b Mon Sep 17 00:00:00 2001
+From: Peter Hutterer <peter.hutterer@who-t.net>
+Date: Wed, 12 Sep 2018 08:14:24 +1000
+Subject: [PATCH] data: fix the launchable ID in the appdata file
+
+Fixes https://github.com/flathub/org.freedesktop.Piper/issues/1
+---
+ data/org.freedesktop.Piper.appdata.xml.in | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/data/org.freedesktop.Piper.appdata.xml.in b/data/org.freedesktop.Piper.appdata.xml.in
+index 8d10a95..7b017a0 100644
+--- a/data/org.freedesktop.Piper.appdata.xml.in
++++ b/data/org.freedesktop.Piper.appdata.xml.in
+@@ -26,7 +26,7 @@
+     <kudo>ModernToolkit</kudo>
+   </kudos>
+ 
+-  <launchable type="desktop-id">org.gnome.Piper.desktop</launchable>
++  <launchable type="desktop-id">org.freedesktop.Piper.desktop</launchable>
+ 
+   <screenshots>
+     <screenshot type="default">
+-- 
+2.17.1
+

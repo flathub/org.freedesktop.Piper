@@ -56,16 +56,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/libratbag/piper",
-                    "tag": "0.2.902",
-                    "commit": "674df8f2d5a020b13efc484a51caf405ddfc359d"
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-data-link-to-flathub-compatible-16-9-screenshots-in-.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-data-fix-the-launchable-ID-in-the-appdata-file.patch"
+                    "tag": "0.2.903",
+                    "commit": "cbbf2c8ae5d1afebe914c1a3181f1f5613a8360f"
                 }
             ]
         }

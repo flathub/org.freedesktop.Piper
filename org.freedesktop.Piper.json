@@ -56,8 +56,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/libratbag/piper",
-                    "tag": "0.2.903",
-                    "commit": "cbbf2c8ae5d1afebe914c1a3181f1f5613a8360f"
+                    "tag": "0.2.904",
+                    "commit": "2249d257a38459f38068b50cc6a60b28c9637b35"
                 }
             ]
         }

@@ -1,7 +1,7 @@
 {
     "app-id": "org.freedesktop.Piper",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.28",
+    "runtime-version": "3.30",
     "sdk": "org.gnome.Sdk",
     "command": "piper",
       "finish-args": [

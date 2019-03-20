@@ -24,8 +24,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://files.pythonhosted.org/packages/da/c9/8f88a77b6f934d60e3ff0e210ed7a15f47a2e9c05e4c8fea67d99d670ab1/evdev-1.0.0.tar.gz",
-                    "sha256": "be0288ef1125bf1c539bb8f3079ef4aa5fb813af28f0c5294a4e744ee554398a"
+                    "url": "https://files.pythonhosted.org/packages/7e/53/374b82dd2ccec240b7388c65075391147524255466651a14340615aabb5f/evdev-1.1.2.tar.gz",
+                    "sha256": "2dd67291be20e70643e8ef6f2381efc10e0c6e44a32abb3c1db74996ea3b0351"
                 }
             ]
         },
@@ -43,8 +43,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://files.pythonhosted.org/packages/ca/63/139b710671c1655aed3b20c1e6776118c62e9f9311152f4c6031e12a0554/lxml-4.2.4.tar.gz",
-                    "sha256": "e2afbe403090f5893e254958d02875e0732975e73c4c0cdd33c1f009a61963ca"
+                    "url": "https://files.pythonhosted.org/packages/65/6f/d070609b415f4a24bf36b7deb94bfd791e8d023c0dbf4233659af53fe0ab/lxml-4.3.2.tar.gz",
+                    "sha256": "3a9d8521c89bf6f2a929c3d12ad3ad7392c774c327ea809fd08a13be6b3bc05f"
                 }
             ]
         },

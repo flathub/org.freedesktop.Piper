@@ -1,17 +1,13 @@
 {
     "app-id": "org.freedesktop.Piper",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.32",
+    "runtime-version": "3.34",
     "sdk": "org.gnome.Sdk",
     "command": "piper",
       "finish-args": [
         "--share=ipc",
         "--socket=x11",
         "--socket=wayland",
-        "--filesystem=xdg-run/dconf",
-        "--filesystem=~/.config/dconf:ro",
-        "--talk-name=ca.desrt.dconf",
-        "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
         "--system-talk-name=org.freedesktop.ratbag1"
       ],
     "modules": [
@@ -24,8 +20,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://files.pythonhosted.org/packages/7e/53/374b82dd2ccec240b7388c65075391147524255466651a14340615aabb5f/evdev-1.1.2.tar.gz",
-                    "sha256": "2dd67291be20e70643e8ef6f2381efc10e0c6e44a32abb3c1db74996ea3b0351"
+                    "url": "https://files.pythonhosted.org/packages/89/83/5f5635fd0d91a08ac355dd9ca9bde34bfa6b29a5c59f703ad83d1ad0bf34/evdev-1.3.0.tar.gz",
+                    "sha256": "b1c649b4fed7252711011da235782b2c260b32e004058d62473471e5cd30634d"
                 }
             ]
         },
@@ -43,8 +39,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://files.pythonhosted.org/packages/65/6f/d070609b415f4a24bf36b7deb94bfd791e8d023c0dbf4233659af53fe0ab/lxml-4.3.2.tar.gz",
-                    "sha256": "3a9d8521c89bf6f2a929c3d12ad3ad7392c774c327ea809fd08a13be6b3bc05f"
+                    "url": "https://files.pythonhosted.org/packages/39/2b/0a66d5436f237aff76b91e68b4d8c041d145ad0a2cdeefe2c42f76ba2857/lxml-4.5.0.tar.gz",
+                    "sha256": "8620ce80f50d023d414183bf90cc2576c2837b88e00bea3f33ad2630133bbb60"
                 }
             ]
         },

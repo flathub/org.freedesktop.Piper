@@ -47,7 +47,7 @@
         {
             "name": "Piper",
             "buildsystem": "meson",
-            "config-opts": [ "-Dignore-ratbagd-dependency=true" ],
+            "config-opts": [ "-Druntime-dependency-checks=false", "-Dtests=false" ],
             "sources": [
                 {
                     "type": "git",

@@ -13,16 +13,16 @@
       ],
     "modules": [
         {
-            "name": "python-evdev",
+            "name": "python3-evdev",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --prefix=/app --no-deps ."
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"evdev\" --no-build-isolation"
             ],
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "https://files.pythonhosted.org/packages/dd/49/d75ac71f54c6c32ac3c63828541740db74d9c764a82496be97b82314d355/evdev-1.6.0.tar.gz",
-                    "sha256": "ecfa01b5c84f7e8c6ced3367ac95288f43cd84efbfd7dd7d0cdbfc0d18c87a6a"
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/05/50/629b011a7f61cb2fca754ea8631575784bf8605a1ec4d6970a010bc54e2b/evdev-1.6.1.tar.gz",
+                    "sha256": "299db8628cc73b237fc1cc57d3c2948faa0756e2a58b6194b5bf81dc2081f1e3"
                 }
             ]
         },
@@ -43,7 +43,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/lxml/lxml.git",
-                    "tag": "lxml-4.9.1"
+                    "tag": "lxml-4.9.3"
                 },
                 {
                     "type": "shell",

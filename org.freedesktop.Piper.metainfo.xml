@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>org.freedesktop.Piper</id>
+
+    <name>Piper</name>
+    <developer id="io.github.libratbag">
+        <name>The libratbag Developers</name>
+    </developer>
+    <url type="homepage">https://github.com/libratbag/piper</url>
+    <url type="bugtracker">https://github.com/libratbag/piper/issues</url>
+    <content_rating type="oars-1.1" />
+
+    <summary>GTK application to configure gaming devices </summary>
+
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>GPL-2.0-only</project_license>
+
+    <supports>
+        <control>pointing</control>
+        <control>keyboard</control>
+        <control>touch</control>
+    </supports>
+
+    <description>
+        <p>
+            Piper is a GTK+ application to configure gaming mice. Piper is merely a graphical
+            frontend to the ratbagd DBus daemon, see the libratbag README for instructions on how to
+            run ratbagd.
+        </p>
+    </description>
+
+    <launchable type="desktop-id">org.freedesktop.Piper.desktop</launchable>
+    <screenshots>
+        <screenshot type="default">
+            <image>https://github.com/libratbag/piper/blob/wiki/screenshots/piper-resolutionpage.png</image>
+        </screenshot>
+        <screenshot>
+            <image>https://github.com/libratbag/piper/blob/wiki/screenshots/piper-buttonpage.png</image>
+        </screenshot>
+        <screenshot>
+            <image>https://github.com/libratbag/piper/blob/wiki/screenshots/piper-ledpage.png</image>
+        </screenshot>
+    </screenshots>
+
+    <releases>
+        <release version="0.8" date="2024-09-24">
+            <description></description>
+        </release>
+    </releases>
+</component>

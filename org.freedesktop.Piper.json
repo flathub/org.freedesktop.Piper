@@ -65,6 +65,20 @@
                     "commit": "0f7286911fd03770088eeb571932b1ea51cf3f7a"
                 }
             ]
+        },
+        {
+            "name": "metadata",
+            "buildsystem": "simple",
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://github.com/libratbag/piper/blob/master/data/org.freedesktop.Piper.appdata.xml.in.in",
+                    "sha256": "c62277ceff0775a4f7c1665e5f2f1c6a95a04608a3c2dc3f749a3a9ad6a0ff02"
+                }
+            ],
+            "build-commands": [
+                "install -Dm644 org.freedesktop.Piper.appdata.xml.in.in /app/share/appdata/org.freedesktop.Piper.appdata.xml"
+            ]
         }
     ]
 }

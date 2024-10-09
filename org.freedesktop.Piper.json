@@ -63,14 +63,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/libratbag/piper.git",
-                    "tag": "0.8",
-                    "commit": "0f7286911fd03770088eeb571932b1ea51cf3f7a"
-                },
-                {
-                    "type": "patch",
-                    "paths": [
-                        "patches/01_add-missing-tag.patch"
-                    ]
+                    "commit": "c6e54f69dfa4cbe5dbe38b0a47b736f773b41e11"
                 }
             ]
         }

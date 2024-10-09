@@ -1,16 +1,16 @@
 {
-    "app-id": "org.freedesktop.Piper",
+    "id": "org.freedesktop.Piper",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "45",
+    "runtime-version": "47",
     "sdk": "org.gnome.Sdk",
     "command": "piper",
-      "finish-args": [
+    "finish-args": [
         "--share=ipc",
         "--socket=x11",
         "--socket=wayland",
         "--system-talk-name=org.freedesktop.ratbag1",
         "--device=dri"
-      ],
+    ],
     "modules": [
         {
             "name": "python3-evdev",
@@ -21,8 +21,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/05/50/629b011a7f61cb2fca754ea8631575784bf8605a1ec4d6970a010bc54e2b/evdev-1.6.1.tar.gz",
-                    "sha256": "299db8628cc73b237fc1cc57d3c2948faa0756e2a58b6194b5bf81dc2081f1e3"
+                    "url": "https://files.pythonhosted.org/packages/12/bb/f622a8a5e64d46ca83020a761877c0ead19140903c9aaf1431f3c531fdf6/evdev-1.7.1.tar.gz",
+                    "sha256": "0c72c370bda29d857e188d931019c32651a9c1ea977c08c8d939b1ced1637fde"
                 }
             ]
         },
@@ -43,7 +43,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/lxml/lxml.git",
-                    "tag": "lxml-4.9.3"
+                    "tag": "lxml-5.3.0"
                 },
                 {
                     "type": "shell",
@@ -56,13 +56,13 @@
         {
             "name": "Piper",
             "buildsystem": "meson",
-            "config-opts": [ "-Druntime-dependency-checks=false", "-Dtests=false" ],
+            "config-opts": [ "-Druntime-dependency-checks=false" ],
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://github.com/libratbag/piper",
-                    "tag": "0.7",
-                    "commit": "7f9834cc5901f790a596bae61e3eb81e63d7c2bd"
+                    "url": "https://github.com/libratbag/piper.git",
+                    "tag": "0.8",
+                    "commit": "0f7286911fd03770088eeb571932b1ea51cf3f7a"
                 }
             ]
         }

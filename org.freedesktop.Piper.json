@@ -6,7 +6,7 @@
     "command": "piper",
     "finish-args": [
         "--share=ipc",
-        "--socket=x11",
+        "--socket=fallback-x11",
         "--socket=wayland",
         "--system-talk-name=org.freedesktop.ratbag1",
         "--device=dri"

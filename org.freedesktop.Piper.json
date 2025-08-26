@@ -1,7 +1,7 @@
 {
     "id": "org.freedesktop.Piper",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "47",
+    "runtime-version": "49",
     "sdk": "org.gnome.Sdk",
     "command": "piper",
     "finish-args": [
@@ -21,8 +21,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/12/bb/f622a8a5e64d46ca83020a761877c0ead19140903c9aaf1431f3c531fdf6/evdev-1.7.1.tar.gz",
-                    "sha256": "0c72c370bda29d857e188d931019c32651a9c1ea977c08c8d939b1ced1637fde"
+                    "url": "https://files.pythonhosted.org/packages/63/fe/a17c106a1f4061ce83f04d14bcedcfb2c38c7793ea56bfb906a6fadae8cb/evdev-1.9.2.tar.gz",
+                    "sha256": "5d3278892ce1f92a74d6bf888cc8525d9f68af85dbe336c95d1c87fb8f423069"
                 }
             ]
         },
@@ -43,7 +43,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/lxml/lxml.git",
-                    "tag": "lxml-5.3.0"
+                    "tag": "lxml-6.0.2",
+                    "commit": "283d02ec8966c0e99f4666dc7bdd936479e97246"
                 },
                 {
                     "type": "shell",
